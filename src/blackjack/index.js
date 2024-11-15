@@ -62,7 +62,7 @@ btnDetener.addEventListener('click', () => {
     btnPedir.disabled   = true;
     btnDetener.disabled = true;
 
-    turnoComputadora(puntosJugador, puntosHTML[1], divCartasComputadora, puntosJugador );
+    turnoComputadora(puntosJugador, puntosHTML[1], divCartasComputadora, deck );
 });
 
 btnNuevo.addEventListener('click', () => {

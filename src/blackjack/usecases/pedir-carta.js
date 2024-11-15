@@ -6,7 +6,7 @@
  */ 
 export const pedirCarta = (deck) => {
     if(!deck ) throw new Error("deck es obligatorio");
-    
+        
     if ( deck.length === 0 ) {
         throw 'No hay cartas en el deck';
     }
